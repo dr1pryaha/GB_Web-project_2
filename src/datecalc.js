@@ -1,4 +1,4 @@
-import { DateTime } from "./luxon.js"; // Загружаем локально сохранённый исходный код luxon
+import { DateTime } from "luxon"; // Загружаем локально сохранённый исходный код luxon
 export function diffDates(firstDate, secondDate) {
   firstDate = DateTime.fromISO(firstDate);
   secondDate = DateTime.fromISO(secondDate);
